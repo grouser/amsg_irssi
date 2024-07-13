@@ -2,6 +2,6 @@
 Send a message to all active channels in network
 
 ```
-/load script amsg
+/script load amsg
 /amsg Good morning people
 ```
