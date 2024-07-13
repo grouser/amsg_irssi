@@ -28,4 +28,4 @@ sub cmd_amsg {
     }
 }
 
-Irssi::command_bind('ame', 'cmd_amsg');
+Irssi::command_bind('amsg', 'cmd_amsg');
