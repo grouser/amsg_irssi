@@ -16,7 +16,7 @@ $VERSION = '1.0';
 );
 
 
-sub cmd_ame {
+sub cmd_amsg {
     my($data, $server, $item) = @_;
     if (!$server || !$server->{connected}) {
       Irssi::print("Not connected to server");
@@ -28,4 +28,4 @@ sub cmd_ame {
     }
 }
 
-Irssi::command_bind('ame', 'cmd_ame');
+Irssi::command_bind('ame', 'cmd_amsg');
